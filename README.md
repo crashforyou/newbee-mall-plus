@@ -64,10 +64,10 @@ newbee-mall是一套电商系统，包括基础版本(Spring Boot+Thymeleaf)、�
 在项目根目录下sql文件夹下，找到`newbee_mall_plus_schema.sql`、`秒杀存储过程.sql`文件，新建mysql数据库newbee_mall_plus_db，导入其中
 
 # 5. 解压项目图片
-将项目根目录下upload.zip文件加压缩到D盘upload文件夹中，eg:D:\\upload
+将项目根目录下upload.zip文件加压缩到D盘upload文件夹中，eg:D:\\upload，注意，upload目录下应该是图片，否则项目启动后无法正常显示图片
 
 # 6. 修改Mysql、Redis连接配置
-修改`application-dev.yml`文件中数据连接配置相关信息
+修改`application-dev.yml`文件中数据连接配置相关信息，将数据库密码改为本地mysql密码
 
 # 7. 启动项目
 找到`NewBeeMallPlusApplication`文件，右键`run AdminApplication`，启动项目
